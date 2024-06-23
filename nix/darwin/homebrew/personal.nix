@@ -34,12 +34,8 @@ _: {
     # Ideally leave this empty and only use nix to manage this 
     brews = [ ];
     casks = [ 
-      "anki"
-      "appcleaner"
       "balenaetcher"
       "chromium"
-      "cleanshot"
-      "darktable"
       "dbeaver-community"
       "diffmerge"
       "discord"
@@ -51,10 +47,6 @@ _: {
       "iina"
       "imageoptim"
       "iterm2"
-      "jdownloader"
-      "keka"
-      "ledger-live"
-      "macfuse"
       "monitorcontrol"
       "neovide"
       "notion"
@@ -66,7 +58,6 @@ _: {
       "raycast"
       "spotify"
       "telegram"
-      "texstudio"
       "transmission"
       "tunnelblick"
       "utm"

@@ -30,15 +30,13 @@
       # pkgs.mitmproxy
       # pkgs.nats-server
       # pkgs.natscli
-      # pkgs.neovim
+      pkgs.neovim
       # pkgs.redis
       # pkgs.vector
       # pkgs.watchman
       nixpkgs-master.legacyPackages.aarch64-darwin.cargo-lambda
       nixpkgs-master.legacyPackages.aarch64-darwin.cargo-tauri
       nixpkgs-master.legacyPackages.aarch64-darwin.plow
-      nixpkgs-master.legacyPackages.aarch64-darwin.youtube-dl
-      nixpkgs-master.legacyPackages.aarch64-darwin.yt-dlp
       pkgs.ack
       pkgs.act
       pkgs.age
@@ -55,9 +53,7 @@
       pkgs.colima
       pkgs.cowsay
       pkgs.curl
-      pkgs.dbmate
       pkgs.direnv
-      pkgs.dive
       pkgs.docker
       pkgs.docker-compose
       pkgs.duti
@@ -75,7 +71,6 @@
       pkgs.git-lfs
       pkgs.git-trim
       pkgs.gitui
-      pkgs.glances
       pkgs.glow
       pkgs.gnupg
       pkgs.gnused
@@ -102,17 +97,13 @@
       pkgs.lazygit
       pkgs.less
       pkgs.libavif
-      pkgs.lnav
-      pkgs.mutagen
-      pkgs.mutagen-compose
+      pkgs.lnav 
       pkgs.ncdu
       pkgs.neofetch
       pkgs.ngrok
       pkgs.nix-prefetch-github
       pkgs.nixpkgs-fmt
-      pkgs.nmap
       pkgs.nodePackages_latest.aws-cdk
-      pkgs.pandoc
       pkgs.parallel
       pkgs.psutils
       pkgs.pulumi
