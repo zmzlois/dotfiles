@@ -22,9 +22,9 @@ git clone git@github.com/zmzlois/dotfiles.git
 
 ```sh
 # For the first run — `darwin-rebuild`` won't be installed in your path yet
-nix run nix-darwin --extra-experimental-features flakes --extra-experimental-features nix-command -- switch --flake ~/dotfiles/nix#omega
+nix run nix-darwin --extra-experimental-features flakes --extra-experimental-features nix-command -- switch --flake ~/dotfiles/nix#pepe
 # Build the flake
-darwin-rebuild build --flake ~/dotfiles/nix#omega
+darwin-rebuild build --flake ~/dotfiles/nix#pepe
 # Switch to the flake
-darwin-rebuild switch --flake ~/dotfiles/nix#omega
+darwin-rebuild switch --flake ~/dotfiles/nix#pepe
 ```

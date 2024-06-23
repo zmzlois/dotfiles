@@ -25,12 +25,12 @@ defaults write com.apple.dock persistent-apps -array && killall Dock
 
 ```sh
 # For the first run — `darwin-rebuild`` won't be installed in your path yet
-nix run nix-darwin --extra-experimental-features flakes --extra-experimental-features nix-command -- switch --flake ~/dotfiles/nix#omega
+nix run nix-darwin --extra-experimental-features flakes --extra-experimental-features nix-command -- switch --flake ~/dotfiles/nix#pepe
 # For consecutive runs
-# Build the flake `omega` (see flake.nix)
-darwin-rebuild build --flake ~/dotfiles/nix#omega
-# Switch to `omega` (see flake.nix)
-darwin-rebuild switch --flake ~/dotfiles/nix#omega
+# Build the flake `pepe` (see flake.nix)
+darwin-rebuild build --flake ~/dotfiles/nix#pepe
+# Switch to `pepe` (see flake.nix)
+darwin-rebuild switch --flake ~/dotfiles/nix#pepe
 ```
 
 ```sh
