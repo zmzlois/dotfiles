@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+
+# ignore logs
+logs/
+*.log
+
+core/.config/alacritty/themes/.selected_theme
+core/.config/alacritty/alacritty.theme-switch-backup.yml
+nix/result
