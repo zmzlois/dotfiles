@@ -39,3 +39,6 @@ darwin-rebuild switch --flake ~/dotfiles/nix#pepe
 nix flake lock --update-all
 nix flake lock --update-input <input>
 ```
+## Appreciation
+
+Edit based on [@ecklf](https://x.com/ecklflorentin)'s [dotfile](https://github.com/ecklf/dotfiles)
