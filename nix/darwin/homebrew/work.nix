@@ -30,9 +30,7 @@ _: {
       "WhatsApp" = 310633997;
       "Xcode" = 497799835;
     };
-    taps = [
-      "homebrew/cask-versions"
-    ];
+  
     # Ideally leave this empty and only use nix to manage this 
     brews = [ ];
     casks = [ 
@@ -52,7 +50,6 @@ _: {
       "iterm2"
       "keka"
       "linear-linear"
-      "logitech-options"
       "monitorcontrol"
       "neovide"
       "ngrok"
