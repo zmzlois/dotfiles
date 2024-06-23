@@ -43,7 +43,6 @@
       pkgs.act
       pkgs.age
       pkgs.awscli2
-      pkgs.bitwarden-cli
       pkgs.bun
       pkgs.caddy
       pkgs.cairo

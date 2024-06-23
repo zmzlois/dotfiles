@@ -37,7 +37,6 @@ _: {
     brews = [ ];
     casks = [ 
       "appcleaner"
-      "bitwarden"
       "chromium"
       "cleanshot"
       "dbeaver-community"

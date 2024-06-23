@@ -39,7 +39,6 @@ _: {
       "anki"
       "appcleaner"
       "balenaetcher"
-      "bitwarden"
       "chromium"
       "cleanshot"
       "darktable"
